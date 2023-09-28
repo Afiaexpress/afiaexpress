@@ -1,0 +1,152 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+.job-listings, .job-request-form {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-listings h2, .job-request-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.job-listings ul {
+    list-style-type: none;
+}
+
+.job-listings li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.job-request-form p {
+    margin-top: 10px;
+}
+
+/* Style the Google Form iframe */
+iframe {
+    border: none;
+}
+.contact-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-option {
+    margin: 0 20px;
+}
+
+.contact-option img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15%;
+    /* Change the border color to match your design */
+    padding: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-option img:hover {
+    transform: scale(1.1);
+}
+
+.contact-option p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.job-listings {
+    padding: 20px;
+}
+
+.job-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between columns as needed */
+}
+
+.job-item {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Adjust styles for each job item as needed */
+.job-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.job-item p {
+    font-size: 14px;
+}
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+@media screen and (min-width: 768px) {
+    /* Styles for laptops and desktops */
+  }
+  
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    /* Styles for tablets */
+  }
+  
+  @media screen and (max-width: 479px) {
+    /* Styles for smartphones */
+  }
+/* Add more CSS styles as needed to customize the appearance */

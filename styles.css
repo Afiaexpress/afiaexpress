@@ -1,0 +1,691 @@
+
+  body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+ h3, h4, h5, h6 {
+color: #333;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff; /* Replace with your desired background color */
+  color: #333; /* Replace with your desired text color */
+}
+
+/* Styling for the logo */
+.logo img {
+  max-width: 150px; /* Adjust the logo size as needed */
+  margin: 10PX;
+}
+
+/* Styling for the navigation bar */
+.main-nav ul {
+  margin-right: 50px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav a {
+  color: #333; /* Replace with your desired link color */
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+  background-color: #555; /* Replace with your desired hover background color */
+}
+/* Style for the search container */
+.search-container {
+  display: flex;
+  margin: 20px;
+}
+
+/* Style for the search input */
+#search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style for the search button */
+#search-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Style for the search results container */
+#search-results {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style for individual search results */
+.search-result {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Style for search result titles */
+.search-result h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Style for search result descriptions */
+.search-result p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+.staff-heading {
+  justify-content: center;
+  text-align: center;
+}
+
+.social-logos {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-logos a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-logos img {
+    width: 30px; /* Adjust the width as needed */
+    height: auto;
+}
+
+/* Additional styling for hover effects */
+.social-logos a:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+.staff-section {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.staff-card {
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 2s ease;
+}
+
+.staff-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  box-shadow: #333;
+}
+
+.staff-card h3 {
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+
+.staff-card p {
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+}
+
+.staff-section:hover .staff-card {
+  transform: translateX(-100%);
+}
+.hero {
+    background-image: url('path/to/your/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+.about {
+    padding: 2rem;
+    text-align: center;
+}
+.skills {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.portfolio {
+    padding: 2rem;
+    text-align: center;
+}
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 30px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .form-group button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+#about-me {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+  
+  .about-card {
+    flex: 0 0 calc(33.33% - 40px);
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .about-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .about-card h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  .skills-section {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .skills-section h2 {
+    font-size: 30px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Skill Card Styles */
+  .skill-card {
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+  }
+  
+  .skill-card i {
+    font-size: 48px;
+    color: #007bff;
+  }
+
+  .skill-card h3 {
+    font-size: 24px;
+    color: #333333;
+    margin: 15px 0;
+  }
+  
+  /* Progress Bar Styles */
+  .progress-bar {
+    background-color: #e9e9e9;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    background-color: #007bff;
+    height: 100%;
+  }
+  .portfolio {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.portfolio h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.work-item {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.work-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.work-item h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.work-item p {
+    margin-top: 10px;
+    color: #555;
+}
+
+.work-item a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #333333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.work-item a:hover {
+    background-color: #0056b3;
+}
+ /* Background Image */
+.hero-image {
+    position: relative;
+    background-image: url("background-image.jpg"); /* Replace with your background image URL */
+    background-size: cover;
+    height: 500px; /* Adjust the height as needed */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+  }
+  
+  .center-section {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/data-technology-blue-background-with-hacker-remixed-media.jpg'); /* Replace with the actual image path */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9; /* Adjust the opacity to your preference */
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+  }
+  .content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Request Buttons Styling */
+  .request-buttons {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+    .request-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4d4f52;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .hover-button:hover {
+      background-color: #4d4e50;
+    }
+
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Blog Section styles */
+#blog-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.blog-post {
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 1rem;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #333;
+}
+
+.blog-post a:hover {
+    background-color: #eaeaea;
+}
+
+.blog-post h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.blog-post p {
+    font-size: 1rem;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-social {
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.social-icon:hover {
+  background-color: #00000000;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4d4f52;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+ /* Add your button styling here */
+ .download-button {
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Style when hovering over the button */
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style when hovering over the button */
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Media queries for responsiveness */
+
+/* Tablets and larger screens */
+@media screen and (min-width: 768px) {
+  .main-header {
+    padding: 20px; /* Increase padding for larger screens */
+  }
+
+  .logo img {
+    max-width: 150px; /* Increase logo size for larger screens */
+  }
+
+  .social-logos img {
+    max-width: 40px; /* Increase social logo size for larger screens */
+  }
+}
+
+/* Laptops and larger screens */
+@media screen and (min-width: 1024px) {
+  .main-nav li {
+    font-size: 20px; /* Increase font size for larger screens */
+  }
+}
+
+
+/* For iPhones */
+@media (max-width: 375px) {
+  .center-section {
+    height: 400px;
+  }
+}
+
+/* For tablets */
+@media (min-width: 768px) {
+  .center-section {
+    height: 500px;
+  }
+}
+
+/* For pads */
+@media (min-width: 1024px) {
+  .center-section {
+    height: 600px;
+  }
+}
+
+/* For laptops */
+@media (min-width: 1280px) {
+  .center-section {
+    height: 700px;
+  }
+}
+
+/* For desktops and Androids */
+@media (min-width: 1600px) {
+  .center-section {
+    height: 800px;
+  }
+}
+
+/* Adjust button placement for all screen sizes */
+.request-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.request-button {
+  margin: 0 10px;
+}
+/* Media query for screens smaller than 768px (e.g., iPhones in portrait) */
+@media (max-width: 767px) {
+  .staff-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .staff-card {
+    width: 80%; /* Adjust width as needed for smaller screens */
+    height: auto;
+  }
+
+  /* Reduce button size for smaller screens */
+  .download-button {
+    font-size: 12px;
+  }
+}
+
+/* Media query for screens between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .staff-card {
+    width: 45%; /* Adjust width as needed for tablets */
+    height: auto;
+  }
+
+  /* Reduce button size for tablets */
+  .download-button {
+    font-size: 12px;
+  }
+}
+
+/* Media query for screens larger than 1024px (e.g., laptops and desktops) */
+@media (min-width: 1025px) {
+  /* You can keep the default styles for larger screens */
+  /* If needed, adjust card dimensions and button size further */
+}
+@media (min-width: 768px) {
+  .about-card {
+    flex-basis: calc(50% - 40px);
+  }
+}
+
+/* For laptops and larger screens */
+@media (min-width: 1024px) {
+  .about-card {
+    flex-basis: calc(33.33% - 40px);
+  }
+}
+
+/* For larger desktop screens */
+@media (min-width: 1200px) {
+  .about-card {
+    flex-basis: calc(25% - 40px);
+  }
+}
+
+/* Adjust button size for all screen sizes */
+.button {
+  font-size: 16px; /* Adjust the font size for buttons */
+  padding: 10px 20px; /* Adjust the button padding */
+}

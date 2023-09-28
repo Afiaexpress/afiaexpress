@@ -1,0 +1,80 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    background-color: #0077b6;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Style specific sections */
+#seminars {
+    background-color: #e29578;
+}
+
+#zoom-meetings {
+    background-color: #8ac4d0;
+}
+
+#telegram-group {
+    background-color: #80bfb7;
+}
+
+#instructions {
+    background-color: #ff9a8b;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0077b6;
+    color: #fff;
+}
+@media screen and (min-width: 768px) {
+    /* Styles for laptops and desktops */
+  }
+  
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    /* Styles for tablets */
+  }
+  
+  @media screen and (max-width: 479px) {
+    /* Styles for smartphones */
+  }

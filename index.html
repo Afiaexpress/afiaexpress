@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFIAe-Xpress</title>
+    <link rel="shortcut icon" href="images/AFIAexpress Logo.png" type="image/x-icon" sizes="32x32">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <header class="main-header">
+    <div class="logo">
+     <a href="index.html"><img src="images/AFIAexpress Logo.png" alt="Your Company Logo"></a> 
+    </div>
+    <div class="social-logos">
+            <a href="https://github.com/Afiaexpress" target="_blank">
+                <img src="images/github.png" alt="GitHub Logo">
+            </a>
+            <a href="https://www.behance.net/afiae-xpress" target="_blank">
+                <img src="images/behance.png" alt="Behance Logo">
+            </a> 
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#blog-section">Blog</a></li>
+        <li><a href="#about-me">Services</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button type="button" id="search-button">Search</button>
+      </div>
+      <div id="search-results">
+        <!-- Search results will be displayed here -->
+      </div>
+      
+    </nav>
+    
+  </header>
+    <section class="center-section">
+        <div class="background-image">
+          <div class="content">
+            <h2>Welcome to  AfiaExpress</h2>
+            <!-- Request Buttons -->
+            <p><span span style="color: aqua;">We are a passionate</span> developers & Designers <span style="color: aqua;">to take on exciting projects.</span></p>
+            <div class="request-buttons">
+              <button class="request-button">Request a service</button>
+              <button class="request-button">Enrole for Learning</button>
+            </div>
+            <p> Your tech troubles voiced, solutions embraced, timely delivery assured.</p>
+          </div>
+        </div>
+      </section>
+    <section class="staff-heading">
+<h3>MEET OUR STAFF</h3>
+      </section>
+      <section class="staff-section">
+        <div class="staff-card">
+          <img class="Staf1" src="-td1e91.jpg" alt="Staff 1">
+          <h3>EMMANUEL UGOCHUKWU</h3>
+          <strong><p> B.Eng. Electronic and Computer Engineering </p></strong>
+          <p>Full-Stack Developer | Senior Graphic Designer</p>
+          <button class="download-button" onclick="downloadCV()">Download My Resume</button>
+
+          <script>
+              function downloadCV() {
+                  // Replace 'cv_filename.pdf' with the actual filename and path of the CV
+                  const cvFileUrl = 'images/CV.pdf';
+                  
+                  // Create a temporary anchor element to trigger the download
+                  const anchor = document.createElement('a');
+                  anchor.href = cvFileUrl;
+                  anchor.download = 'staff_cv.pdf'; // Rename the downloaded file if needed
+                  anchor.style.display = 'none';
+                  
+                  // Append the anchor to the document and trigger the click event
+                  document.body.appendChild(anchor);
+                  anchor.click();
+                  
+                  // Remove the anchor element
+                  document.body.removeChild(anchor);
+              }
+          </script>
+        </div>
+        <div class="staff-card">
+          <img src="images/Screenshot_20230803-002841_Facebook.jpg" alt="Staff 2">
+          <h3>ANYAOGU IKECHUKWU</h3>
+          <strong><p> B.Eng. Agric and Bioresource Engineering </p></strong>
+          <P>SEO & Digital Marketing Expert</p>
+        </div>
+        <!-- Add more staff cards here -->
+    
+      </section>
+    <section id="about-me">
+        <div class="about-card">
+          <h2>Digital Transformation Hub</h2>
+          <p>
+            Elevate your career with our exclusive network! Get comprehensive training, personalized mentorship, and access to a vibrant professional community. Don't miss this chance to excel – join us today! [Insert instructions on how to join]. Your success begins here!
+          </p>
+          <section>
+            <!-- Button with a link to another page -->
+            <a href="DigitalTransformationHub.html" class="button">Unlock Your Potential Today!</a>
+        </section>
+        </div>
+        <div class="about-card">
+          <h2>Freelance Tech Aid</h2>
+          <p>
+            Discover endless opportunities in tech and academia! Join our team of exceptional freelancers. You set the schedule, enjoy flexibility, fair pay, and a supportive community. Let's embark on this exciting journey together.<p> Your success is our success!</p>
+          </p>
+          <section>
+            <!-- Button with a link to another page -->
+            <a href="FreelanceTechAid.html" class="button">Hire a Professional Now!</a>
+        </section>
+        </div>
+        <div class="about-card">
+          <h2>CodeCrafters Academy</h2>
+          <p>
+          Unlock Your Digital Potential! Enrol in our digital skills training in Digital Marketing, Data Analytics, and more. Expert instructors, flexible schedules, and career opportunities await.
+          <p> Don't miss out on your digital future!</p>
+          </p>
+          <section>
+            <!-- Button with a link to another page -->
+            <a href="CodeCraftersAcademy.html" class="button">Enroll Today and Seize Your Digital Future!</a>
+        </section>
+        </div>
+      </section>
+      <section id="blog-section">
+        <div class="blog-post">
+            <a href="#">
+                <h3>Blog Post 1</h3>
+                <p>Summary of Blog Post 1...</p>
+            </a>
+        </div>
+
+        <div class="blog-post">
+            <a href="#">
+                <h3>Blog Post 2</h3>
+                <p>Summary of Blog Post 2...</p>
+            </a>
+        </div>
+
+        <div class="blog-post">
+            <a href="#">
+                <h3>Blog Post 3</h3>
+                <p>Summary of Blog Post 3...</p>
+            </a>
+        </div>
+    </section>
+    <section id="blog-section">
+      <div class="blog-post">
+          <a href="#">
+              <h3>Blog Post 1</h3>
+              <p>Summary of Blog Post 1...</p>
+          </a>
+      </div>
+
+      <div class="blog-post">
+          <a href="#">
+              <h3>Blog Post 2</h3>
+              <p>Summary of Blog Post 2...</p>
+          </a>
+      </div>
+
+      <div class="blog-post">
+          <a href="#">
+              <h3>Blog Post 3</h3>
+              <p>Summary of Blog Post 3...</p>
+          </a>
+      </div>
+  </section> 
+  <div style="text-align: center;"><h1>OUR PAST WORKS</h1></div>
+  <section class="portfolio">
+    <div class="work-item">
+        <img src="work1.jpg" alt="Work 1">
+        <h2>Project 1</h2>
+        <p>Short description of Project 1.</p>
+        <a href="#">View Details</a>
+    </div>
+    <div class="work-item">
+        <img src="" alt="Work 2">
+        <h2>project 2</h2>
+        <p>Short description of Project 1.</p>
+        <a href="#">View Details</a>
+    </div>
+    <div class="work-item">
+        <img src="work3.jpg" alt="Work 3">
+        <h2>Project 3</h2>
+        <p>Short description of Project 3.</p>
+        <a href="#">View Details</a>
+    </div>
+    <div class="work-item">
+      <img src="work4.jpg" alt="Work 3">
+      <h2>Project 4</h2>
+      <p>Short description of Project 3.</p>
+      <a href="#">View Details</a>
+  </div>
+</section>
+  <footer id="footer">
+    <div class="footer-social">
+      <a href="#" class="social-icon"><img src="images/play.png" alt="YouTube"></a>
+      <a href="#" class="social-icon"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="https://twitter.com/AfiaExpress" class="social-icon"><img src="images/twitter.png" alt="Twitter"></a>
+      <a href="#" class="social-icon"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="https://wa.me/07066627583" class="social-icon" > <img src="images/whatsapp.png" alt="WhatsApp">
+    </a>
+    </div>
+    <p class="footer-text">Follow us on social media to stay updated!</p>
+  </footer>
+</body>
+</html>

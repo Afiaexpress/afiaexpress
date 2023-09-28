@@ -1,0 +1,117 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Styling for the card grid */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Styling for individual cards */
+.card {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Styling for card content */
+.card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    margin: 10px;
+    color: #777;
+}
+.contact-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-option {
+    margin: 0 20px;
+}
+
+.contact-option img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15%;
+    /* Change the border color to match your design */
+    padding: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-option img:hover {
+    transform: scale(1.1);
+}
+
+.contact-option p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+    /* Styles for laptops and desktops */
+  }
+  
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    /* Styles for tablets */
+  }
+  
+  @media screen and (max-width: 479px) {
+    /* Styles for smartphones */
+  }
